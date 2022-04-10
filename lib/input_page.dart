@@ -31,6 +31,9 @@ class _InputPageState extends State<InputPage> {
                         FontAwesomeIcons.mars,
                         size: 80.0,
                       ),
+                      SizedBox(
+                        height: 15.0,
+                      ),
                     ],
                   ),
                 ),
