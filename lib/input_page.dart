@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 const bottomContainerHeight = 80.0;
 const activeCardColour = Color(0xFF1D1E33);
@@ -24,11 +25,13 @@ class _InputPageState extends State<InputPage> {
               Expanded(
                 child: ReusableCard(
                   colour: activeCardColour,
+                  cardChild: null,
                 ),
               ),
               Expanded(
                 child: ReusableCard(
                   colour: activeCardColour,
+                  cardChild: null,
                 ),
               ),
             ],
@@ -36,6 +39,7 @@ class _InputPageState extends State<InputPage> {
           Expanded(
             child: ReusableCard(
               colour: activeCardColour,
+              cardChild: null,
             ),
           ),
           Expanded(
@@ -44,11 +48,13 @@ class _InputPageState extends State<InputPage> {
               Expanded(
                 child: ReusableCard(
                   colour: activeCardColour,
+                  cardChild: null,
                 ),
               ),
               Expanded(
                 child: ReusableCard(
                   colour: activeCardColour,
+                  cardChild: null,
                 ),
               ),
             ],
@@ -74,7 +80,7 @@ class ReusableCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: ,
+      child: cardChild,
       margin: EdgeInsets.all(15.0),
       decoration: BoxDecoration(
         color: colour,
