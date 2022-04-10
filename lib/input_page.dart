@@ -50,6 +50,7 @@ class _InputPageState extends State<InputPage> {
                 child: ReusableCard(
                   colour: activeCardColour,
                   cardChild: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Icon(
                         FontAwesomeIcons.mars,
