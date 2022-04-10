@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+const bottomContainerHeight = 80.0;
+
 class InputPage extends StatefulWidget {
   @override
   _InputPageState createState() => _InputPageState();
