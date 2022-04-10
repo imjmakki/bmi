@@ -26,7 +26,12 @@ class _InputPageState extends State<InputPage> {
                 child: ReusableCard(
                   colour: activeCardColour,
                   cardChild: Column(
-                    children: [Icon(FontAwesomeIcons.mars)],
+                    children: [
+                      Icon(
+                        FontAwesomeIcons.mars,
+                        size: 80.0,
+                      ),
+                    ],
                   ),
                 ),
               ),
