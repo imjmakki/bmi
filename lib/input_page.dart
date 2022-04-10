@@ -72,6 +72,9 @@ class _InputPageState extends State<InputPage> {
 }
 
 class IconContent extends StatelessWidget {
+  final IconData icon;
+  final String label;
+
   @override
   Widget build(BuildContext context) {
     return Column(
