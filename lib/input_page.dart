@@ -72,7 +72,7 @@ class _InputPageState extends State<InputPage> {
 }
 
 class IconContent extends StatelessWidget {
-  IconContent({})
+  IconContent({required this.icon, required this.label})
 
   final IconData icon;
   final String label;
@@ -83,14 +83,14 @@ class IconContent extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Icon(
-          FontAwesomeIcons.mars,
+          icon,
           size: 80.0,
         ),
         SizedBox(
           height: 15.0,
         ),
         Text(
-          "MALE",
+          label,
           style: TextStyle(
             fontSize: 18.0,
             color: Color(0xFF8D8E98),
