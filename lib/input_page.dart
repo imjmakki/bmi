@@ -72,6 +72,8 @@ class _InputPageState extends State<InputPage> {
 }
 
 class IconContent extends StatelessWidget {
+  IconContent({})
+
   final IconData icon;
   final String label;
 
